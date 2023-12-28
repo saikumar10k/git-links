@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUH/8QAIhABAQACAgEEAwEAAAAAAAAAAAECERIhMQMiQVETMmFC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A+SQ7OxFybZdmei49teCscArLiem1xRZ2Iz0citHjAEFXoWAxoaaGgZk10mwGehY24DiLGGlYxpYnQI2nKr2WeOWgZ7EqvxpuIM8mWVdFjHPD3hWWyPIqrL1NNMIUx7aYxFg4nIrSpOhSkTlj20mJ3HoK5+JyNOImIkTxy+BwaSC4i1Mx6TxaydJ49iMsonTXPjpOMAYlfKrEfIFlEcW2uSbOH+gjK4e5cxOQ4LU2Ms8WucSEcsRk2yxY+oDGwl5M1K9mHvtOJ3yiRrgvfTLG9KmXYtXFIjSXoRNJVZ29g0gsZzI9hDokE8lkKnOFKPk9BSsTY10mzsQvS8n6uG8hIdgI3r2oyaZRGVBjyOe4tFfaLD9TFzZRtjy+2fqwK5skabZRGOXQj1IcKLgqpFcdTbOXLfTbG9dhUynyV5ToRXLpPk5E5Xh4+QHES8aWwDTljZupyxlm/pPwVvQHj5XMUemvYHRC/bqmBVNq9otBnkxz5OiouIMN1OTaxnYLGWN95Z3/ACrL2+EWgx9TkztdGeEZZTsK9PCe5rZ2yw6a7ATqr3j8sxsGkv0MqiUWhVY5JvdtLHyvQiaBldJlBR1GV7h7AcjlQJQXyPmiiA03y8pog2CYdm/1TdCUDuLHKtMs2GV718AyzyZ1dZ5CxVrK5d+SyyZ0K9nGNZJplLpUy7BprpGUXO4KCC0dKBRJ2uXoi5CDNlcu159xmLD529CZaSAquQuSaWxGmNXj/WWOSrl0DWoqcdzzdnaBZIuRZ5MssqLG0vtZUuRbCp9RjnW2VYZhGdQrKo2qV6/JeNZSq5T7RXRjl0XPtlM+k3MG9zTyZXLpPMG9y6Rc2Vz6TyCtrl0W2Nt+y3Z8iReWV2JlUXITIWtbek7pcv6NiKlO5VnyOZA1mXRXNPKotA8skZZJyyF1YEFtLlvwE/r4FpZZMs8lZVnlVRNqdnUqxXqy9Fb2nGnZWa6HyFqfkVIKl6G0bLajTrRRMo32FXdIzo2nMQS9Gj4LYNJTuTLYtoNN9CZI7Gwa8k8kci2AuSpWer9CZ6A87UcqMsk2iFlU2quU+kVUpWkArLvx3tpq2eWOOS/yf1l1XJdlkj8l2qepPkCFh3KVNoUux3srkXIRWxdlM/4ewTRpWgCZO18Snk9gRZQ7UWgQtK1MoL3UHyLYibSopKBNVU0QgArNbzI5WWz2y6a12qWMeQmQRtchyY3Ls9i1dpbTaBFynyZ2lsGvM+THkewa8hckbFoHlknZWp2C6nZbAgtLZbhbVNPZbAE0bIAQABQ5TSEJVjadjYuqitxnsbF1puDcZ7LYavZWp2BNPapUGGr5DkgC6rkWyAmnsrQQmgAKAAhDAAAAgMEAMAAAAKAAAAAgGwQKBAUGQAAgIYIAAAAAAAAA/9k=);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 200px;
+width: 200px;
+        }
+        .audio{
+        align-items:center;
+        padding-left:px;
+      
+        }
+        .s{
+            height: 100px;
+            width: 5px;
+            animation-name:hi;
+            animation-duration: 1s;
+            border: 1px solid rgb(253, 3, 3);
+            background-color: rgb(16, 15, 15);
+            padding: 0px;
+            border-radius:1px;
+            position: absolute;
+            left: 70px;
+            bottom:50px ;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+       
+        }
+        @keyframes hi{
+            0%{transform:scaley(1);
+                background-color: rgb(221, 13, 13);
+            
+                    }
+                     
+              10%{
+                background-color: red;
+                
+              }      
+        50%{
+            transform:s(1 5) ;
+            background-color: red;
+            height: 20px;
+        }
+        60%{
+            background-color:rgb(228,13,13);
+        }
+    }
+    .dileep{
+            height: 60px;
+            width: 5px;
+            animation-name:hi;
+            animation-duration: 1s;
+            border: 1px solid rgb(253, 3, 3);
+            background-color: rgb(100, 48, 197);
+            padding: 0px;
+            border-radius:1px;
+            position: absolute;
+            left: 15px;
+            bottom:0px ;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+    }
+    .john{
+            height: 80px;
+            width: 5px;
+            animation-name:hi;
+            animation-duration: 1s;
+            border: 1px solid rgb(178, 3, 253);
+            background-color: rgb(236, 233, 223);
+            padding: 0px;
+            border-radius:1px;
+            position: absolute;
+            left: 25px;
+            bottom:1px ;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+    }
+    .bhanu{
+            height: 40px;
+            width: 5px;
+            animation-name:hi;
+            animation-duration: 1s;
+            border: 1px solid rgb(178, 3, 253);
+            background-color: rgb(45, 92, 210);
+            padding: 0px;
+            border-radius:1px;
+            position: absolute;
+            left: 35px;
+            bottom:1px ;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+    }
+    .kiran{
+            height: 90px;
+            width: 5px;
+            animation-name:hi;
+            animation-duration: 2s;
+            border: 1px solid rgb(178, 3, 253);
+            background-color: rgb(45, 92, 210);
+            padding: 0px;
+            border-radius:1px;
+            position: absolute;
+            left: 45px;
+            bottom:1px ;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+    }
+        </style>
+  <body>
+    <div>
+        <div class="audio">
+<img src="https://e1.pxfuel.com/desktop-wallpaper/589/931/desktop-wallpaper-aravindha-sametha-aravinda-sametha-veera-raghava-thumbnail.jpg" height="300px" width="300px">
+<audio controls autoplay>
+    <source src="../jr-Ntr-Dialogue-Okka-Adugu.mp3"></audio>
+</div>
+</div>
+<div class="s">
+    <div class="sai"></div>
+    <div class="dileep"></div>
+    <div class="john"></div>
+    <div class="bhanu"></div>
+    <div class="kiran"></div>
+</div>
+</body>
+</html>

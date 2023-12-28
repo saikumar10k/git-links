@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Grid Template</title>
+<head>
+    <style>
+        .grid{
+            display: grid;
+            margin: 30px;
+            width:1600px;
+            grid-template-columns:350px 350px 350px 350px;
+            grid-template-rows: 400px 400px 400px;
+
+        }
+        .nav{
+            display: grid;
+            position: fixed;
+            width: 1400px;
+            height: 30px;
+            line-height:30px;
+            margin: 30px;
+        }
+        img:hover{
+            opacity:0.5;
+
+        }
+       a:hover{
+        background-color: black;
+        text-decoration: none;
+        color: aliceblue;
+        font-size:30px;
+        
+       }
+       a{
+        margin:10px;
+       }
+       .about{
+        width: 500px;
+        text-align: left;
+        margin-top: 30px;
+       }
+       #B1{
+        border: 1px solid rgba(0, 0, 0, 0.258);
+        text-align: center;
+        height:30px;
+        line-height: 2;
+        width: 500px;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.54) 95%, rgba(241, 239, 239, 0.962) 5%);
+        color: aliceblue;
+        border-radius:20px;
+
+       }
+       #B2{
+        border: 1px solid rgba(0, 0, 0, 0.258);
+        text-align: center;
+        height:30px;
+        line-height: 2;
+        width: 500px;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.54) 85%, rgba(241, 239, 239, 0.962) 15%);
+        color: aliceblue;
+        border-radius:20px;
+
+       }
+       #B3{
+        border: 1px solid rgba(0, 0, 0, 0.258);
+        text-align: center;
+        height:30px;
+        line-height: 2;
+        width: 500px;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.54) 80%, rgba(241, 239, 239, 0.962) 20%);
+        color: aliceblue;
+        border-radius:20px;
+
+       }
+       #B4{
+        border:1px solid rgb(238, 233, 233);
+        background-color: rgba(156, 169, 181, 0.788);
+        width: 150px;
+        text-align: center;
+        border-radius: 20px;
+        height: 30px;
+        line-height: 2;
+
+       }
+       #B4:hover{
+        background-color: rgba(0, 255, 255, 0.677);
+       }
+       .A{
+        display:grid;
+        grid-template-columns: auto auto;
+        border: 1px solid rgba(7, 7, 7, 0.063);       
+        height: 300px;
+        gap: 10px;
+        width: 500px;  
+       }
+       .A{
+        background-color: rgba(240, 248, 255, 0.579);
+       }
+      
+       h4{
+        background-color: black;
+        color: aliceblue;
+        height:40px;
+        line-height:2.5;
+       }
+       h4:hover{
+        background-color: rgba(245, 148, 22, 0.5);
+       }
+       b{
+        background-color: rgba(123, 154, 180, 0.808);
+       }
+       b:hover{
+        background-color: rgba(0, 255, 255, 0.549);
+       }
+       #M{
+        background-color: rgba(10, 10, 10, 0.288);
+       }
+       #B{
+        width: 500px;
+       }
+       input{
+        width: 500px;
+        height: 30px;
+        border-radius: 10px;
+       }
+       #p{
+        border: 1px solid black;
+        width: 505px;
+        height: 35px;
+        line-height:1.9;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px;
+       }
+       #p:hover{
+        background-color: rgba(15, 16, 16, 0.468);
+       }
+       span{
+        font-size:2em;
+       }
+       #II{
+        width: 500px;
+       }
+       #I{
+        display:flex;
+        background-color: rgba(0, 0, 0, 0.225);
+       }
+       hr{
+        width: 500px;
+       }
+
+    </style>
+</head>
+<body>
+    <nav class="nav">
+    SOME NAME
+    </nav>
+    <br>
+    <br>
+    <div class="grid">
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl_train.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/man_bench.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/natureboy.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/boy.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/man_bench.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl_train.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/girl.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/natureboy.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/closegirl.jpg" width="400" height="400" alt="">
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/boy.jpg" width="400" height="400" alt="">
+        </div>
+    </div>
+    <center>
+        <a><<</a>
+        <a style="background-color: black; color: aliceblue;">1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>>></a>
+    </center><br>
+  <center>
+<div id="M">
+        <div class="about">
+        <h3>About Me</h3>
+        <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" width="500" height="500" alt="">
+        <p>My Name</p>
+        <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>mail: example@example.com</p>
+        <p>tel: 5353 35531</p>
+        <hr>
+        </div>
+    
+        <div>
+        <h3>Technical Skills</h3>
+        <p>Photography</p>
+        <div id="B1">95%</div>
+        <p>Web Design</p>
+        <div id="B2">85%</div>
+        <p>Photoshop</p>
+        <div id="B3">80%</div><br>
+        <div id="b4">Download resume</div>
+        <hr>
+        </div>
+        <h3>How much I charge</h3>
+        <div class="A">
+        <div class="A1"> 
+        <h4>BASIC</h4>
+        <p>Web Design</p>
+        <p>Photography</p>
+        <p>5GB Storage</p>
+        <p>Mail Support</p>
+        <p>$ 10
+            per month</p>
+          <b>SIGN UP</b>  
+        </div>
+        <div class="A1">
+        <h4>PRO</h4>
+        <p>Web Design</p>
+        <p>Photography</p>
+        <p>50GB Storage</p>
+        <p>Endless Support</p>
+        <p>$ 25
+            per month</p>
+            <b>SIGN UP</b>
+        </div>
+    </div>
+    </div>
+    <div>
+        <h3>Contact Me</h3>
+        <div id="B">
+            <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+            <p>NAME</p>
+          <input type="text">
+          <p>Email</p>
+          <input type="text">
+          <p>Message</p>
+          <input type="text">
+          <br><br>
+          <p id="p">Send message</p>
+        </div>
+    </div>
+</center>
+<br><br>
+<div id="I">
+    <div id="II">
+        <span>INFO</span>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+    <div id="II">
+        <span>BLOG POSTS</span><br>
+        <img src="https://www.w3schools.com/w3images/workshop.jpg" width="60px" alt="">Lorem<br>
+        Sed mattis nunc <br><br>
+        <hr>
+        <img src="https://www.w3schools.com/w3images/gondol.jpg" width=60px alt="">Ipsum<br>
+        Praes tinci sed
+    </div><br><br>
+    <div id="II">
+        <span>POPULAR TAGS</span><br>
+        <b style="color: aliceblue;background-color: black;">Travel</b>
+        <b >New York</b>
+        <b>London</b>
+        <b>IkEA</b>
+        <b>NORWAY</b>
+        <b>DIY</b>
+        <b>ideas</b>
+        <b >Baby</b>
+        <b>Family</b>
+        <b>News</b>
+        <b>Clothing</b>
+        <b>Shopping</b>
+        <b>Sports</b>
+        <b>Games</b>
+    </div><br>
+</div>
+
+</body>
+</html>
